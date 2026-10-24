@@ -1,0 +1,9 @@
+# Local credentials / dbt output
+.env
+.venv/
+__pycache__/
+dbt/target/
+dbt/logs/
+dbt/packages/
+dbt/profiles.yml
+.DS_Store
