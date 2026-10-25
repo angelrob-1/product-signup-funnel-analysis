@@ -1,9 +1,24 @@
-# Local credentials / dbt output
-.env
+# Python virtual environment
 .venv/
+venv/
 __pycache__/
-dbt/target/
-dbt/logs/
-dbt/packages/
-dbt/profiles.yml
+*.pyc
+
+# Local credentials
+.env
+.env.*
+!.env.example
+profiles.yml
+
+# dbt generated files
+logs/
+target/
+dbt_packages/
+flowspace_dbt/logs/
+flowspace_dbt/target/
+flowspace_dbt/dbt_packages/
+flowspace_dbt/packages/
+
+# Operating system files
 .DS_Store
+Thumbs.db
